@@ -9,7 +9,7 @@ static void Main(string[] args)
 Console.WriteLine("Simple Calculator");
 Console.WriteLine("------------------");
 
-```        Console.Write("Enter first number: ");
+        Console.Write("Enter first number: ");
         double num1 = Convert.ToDouble(Console.ReadLine());
 
         Console.Write("Enter operator (+, -, *, /): ");
@@ -50,5 +50,5 @@ Console.WriteLine("------------------");
         Console.WriteLine($"Result: {result}");
     }
 }
-```
+        
 }
